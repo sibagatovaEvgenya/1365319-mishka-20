@@ -107,20 +107,20 @@
               <span class="form-feedback__legend-text">ФИО</span>
             </legend>
 
-            <div class="form-feedback__content-wrapper">
-              <p class="form-feedback__input-wrapper--name">
-                <label class="form-feedback__label" for="firstname">Имя:</label>
-                <input class="form-feedback__input-text" type="text" id="firstname" name="firstname" placeholder="Введите ваше имя*">
+            <div class="form-feedback__input-wrapper">
+              <p class="form-feedback__input-wrapper--name ">
+                <label class="form-feedback__input-wrapper__label" for="firstname">Имя:</label>
+                <input class="form-feedback__input-wrapper__input-text" type="text" id="firstname" name="firstname" placeholder="Введите ваше имя*">
               </p>
 
-              <p class="form-feedback__input-wrapper--name">
-                <label class="form-feedback__label" for="lastname">Фамилия:</label>
-                <input class="form-feedback__input-text" type="text" id="lastname" name="lastname" placeholder="Укажите фамилию*">
+              <p class="form-feedback__input-wrapper--name ">
+                <label class="form-feedback__input-wrapper__label" for="lastname">Фамилия:</label>
+                <input class="form-feedback__input-wrapper__input-text" type="text" id="lastname" name="lastname" placeholder="Укажите фамилию*">
               </p>
 
-              <p class="form-feedback__input-wrapper--name">
-                <label class="form-feedback__label" for="middlename">Отчество:</label>
-                <input class="form-feedback__input-text" type="text" id="middlename" name="middlename" placeholder="Отчество, если желаете">
+              <p class="form-feedback__input-wrapper--name ">
+                <label class="form-feedback__input-wrapper__label" for="middlename">Отчество:</label>
+                <input class="form-feedback__input-wrapper__input-text" type="text" id="middlename" name="middlename" placeholder="Отчество, если желаете">
               </p>
             </div>
           </fieldset>
@@ -129,21 +129,19 @@
         <div class="form-feedback__block-wrapper ">
           <fieldset class="form-feedback__fieldset form-feedback__fieldset--contact content-wrapper">
             <div class="form-feedback__content-wrapper">
-              <label class="form-feedback__legend form-feedback__legend--phone" for="phone">
-                <span class="form-feedback__legend-text">Тел</span>
+              <label class="form-feedback__content-wrapper__legend form-feedback__legend--phone" for="phone">
+                <span class="form-feedback__content-wrapper__legend-text">Тел</span>
               </label>
-              <p class=" form-feedback__input-wrapper--contact">
-                <input class="form-feedback__input-text" type="tel" id="phone" name="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-                <svg class="form-feedback__input-image form-feedback__input-image--phone" width="25" height="24">
-                  <use xlink:href="img/symbols.svg#icon-phone"></use>
-                </svg>
+              <p class=" form-feedback__content-wrapper--contact">
+                <input class="form-feedback__content-wrapper__input-text" type="tel" id="phone" name="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+
               </p>
 
-              <label class="form-feedback__legend--email" for="email">
-                <span class="form-feedback__legend-text">E-mail</span>
+              <label class="form-feedback__content-wrapper--email" for="email">
+                <span class="form-feedback__content-wrapper-text">E-mail</span>
               </label>
-              <p class="form-feedback__input-wrapper--contact">
-                <input class="form-feedback__input-text" type="email" id="email" name="email" placeholder="Ваш Email*">
+              <p class="form-feedback__content-wrapper--contact">
+                <input class="form-feedback__content-wrapper__input-text" type="email" id="email" name="email" placeholder="Ваш Email*">
               </p>
             </div>
           </fieldset>
@@ -186,7 +184,7 @@
             <a href="" class="social-links__link" aria-label="twitter"></a>
           </li>
         </ul>
-        <div class="page-footer__copyright">
+        <div class="page-footer__copyright copyright">
           <a href="" class="copyright__link">
             <p class="copyright__text">Разработано</p></a>
         </div>
