@@ -1,0 +1,27 @@
+.page-footer {
+  padding-top: 25px;
+  padding-bottom: 23px;
+  background-color: $bg-color-footer;
+
+  @media $table, $desctop{
+    padding-top: 51px;
+    padding-bottom: 58px;
+  }
+}
+
+.page-footer__logo {
+  display: none;
+
+  @media $tablet, $desctop {
+    display: block;
+    margin-right: 0;
+  }
+}
+.page-footer__copyright{
+  margin-top: 22px;
+  margin-bottom: 23px;
+
+  @media $table, $desctop{
+    margin:0;
+  }
+}

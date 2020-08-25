@@ -1,0 +1,23 @@
+.catalog{
+  margin: 0;
+  margin-top: 30px;
+
+  @media $tablet{
+    margin-top:67px;
+  }
+  @media $desktop{
+    margin-top: 111px;
+  }
+}
+
+.catalog__card-product {
+  margin: 0 auto 30px;
+
+  @media $tablet {
+    margin-bottom: 53px;
+  }
+
+  @media $desktop {
+    margin: 0 0 57px;
+  }
+}

@@ -1,0 +1,132 @@
+.product-card__item{
+  width: 260px;
+
+  @media $tablet {
+    width: 668px;
+  }
+
+  @media $desctop {
+    width: 316px;
+  }
+
+}
+.product-card__text-wrapper{
+  box-sizing: border-box;
+  padding-top: 28px;
+  padding-bottom: 27px;
+  padding-left: 28px;
+  padding-right:27px;
+  width: 260px;
+  border: 1px solid $bg-color-separate;
+
+  @media $tablet{
+    padding-top: 27px;
+    padding-bottom: 26px;
+    padding-left: 34px;
+    padding-right:32px;
+    width: 50%;
+  }
+
+  @media $desctop{
+    padding-top: 27px;
+    padding-bottom: 26px;
+    padding-left: 28px;
+    padding-right:31px;
+    min-height: 197px;
+
+  }
+}
+
+.product-card:hover .product-cardt__text-wrapper {
+  filter:drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.1));
+}
+
+.product-card:active .product-card__text-wrapper {
+  filter:drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.1))
+}
+
+.product-card__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $font-color-heading;
+
+  @media $tablet, $desctop {
+    font-size: 20px;
+  }
+}
+
+.product-card__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-card__text {
+  margin-top: 16px;
+  margin-bottom: 18px;
+  font-size: 13px;
+  line-height: 30px;
+
+  @media $tablet, $desktop {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+}
+
+.product-card__price-wrapper {
+  padding-top: 22px;
+  padding-bottom: 27px;
+  padding-left: 28px;
+  padding-right:27px;
+  border-top: 1px solid $bg-color-separate;
+
+  @media $tablet {
+    margin-top: auto;
+    padding-top: 24px;
+    padding-bottom: 26px;
+    padding-left: 34px;
+    padding-right:32px;
+  }
+
+  @media $desktop {
+    padding-top: 24px;
+    padding-bottom: 26px;
+    padding-left: 28px;
+    padding-right:31px;
+  }
+}
+
+.product-card__price {
+  margin: 0;
+  font-weight: 700;
+  color: $font-color-heading;
+
+  @media $tablet, $desktop {
+    font-size: 17px;
+
+  }
+}
+
+.product-card__button {
+  width: 20px;
+  height: 19px;
+}
+
+.product-card__button-image {
+
+  width: 20px;
+  height: 19px;
+  fill: $bg-color-icon;
+  pointer-events: none;
+
+  .product-card__button:hover &,
+  .product-card__button:active & {
+    fill: $green-primary;
+  }
+
+  .product-card__button:active & {
+    fill-opacity: 0.3;
+  }
+}

@@ -1,0 +1,78 @@
+.hit{
+  margin-top: 35px;
+
+
+  @media $tablet {
+    padding-top: 40px;
+    padding-bottom: 38px;
+  }
+
+  @media $desktop {
+    padding-top: 115px;
+    padding-bottom: 35px;
+  }
+}
+.hit__marker{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $font-color-legend;
+  text-transform: uppercase;
+
+  @media $tablet {
+   margin-left: auto;
+   margin-top: 5px;
+   margin-bottom: 0;
+   max-width: 127px;
+   line-height: 17px;
+   text-align: center;
+ }
+
+ @media $desktop {
+   margin-left: 45px;
+   margin-right: 55px;
+   line-height: 17px;
+ }
+
+}
+
+.hit__text{
+  margin-top: 18px;
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 24px;
+
+  @media $tablet {
+   margin-top: 0;
+   margin-bottom: 48px;
+   font-size: 17px;
+   line-height: 30px;
+ }
+
+ @media $desktop {
+   margin-left: 45px;
+   margin-right: 58px;
+   font-size: 17px;
+   line-height: 30px;
+ }
+}
+.hit__price{
+  margin-top: 26px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  }
+
+  @media $tablet, $desktop {
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.hit__button{
+  margin: 0;
+}
