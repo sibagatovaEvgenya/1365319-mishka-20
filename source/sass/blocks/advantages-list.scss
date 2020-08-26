@@ -1,15 +1,4 @@
-.advantages-list{
-  margin-top: 0;
-  margin-bottom: 58px;
 
-  @media $tablet{
-    margin-bottom: 83px;
-  }
-
-  @media $desctop{
-    margin-bottom: 90px;
-  }
-}
 
 .advantages__list-item{
   padding-top: 54px;
@@ -18,21 +7,19 @@
   font-weight: 700;
   line-height: 20px;
 
-  @media $tablet, $desctop{
+  @media $tablet, $desktop{
     padding-top: 56px;
     padding-bottom: 54px;
     font-size: 20px;
     line-height: 22px;
 
   }
-  &::before {
-    content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-  }
 
   &--eco {
    &::before {
+     content: "";
+     position: absolute;
+     background-repeat: no-repeat;
      left: 7px;
      top: 0;
      width: 32px;
@@ -44,6 +31,9 @@
 
  &--style {
     &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
       left: 0;
       top: 0;
       width: 47px;
@@ -55,6 +45,9 @@
 
   &--likes {
     &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
       left: 7px;
       top: 6px;
       width: 33px;
@@ -66,6 +59,9 @@
 
   &--handmade {
     &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
       left: 3px;
       top: 3px;
       width: 34px;
@@ -77,6 +73,9 @@
 
   &--support {
     &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
       left: -6px;
       top: 4px;
       width: 54px;
@@ -88,6 +87,9 @@
 
   &--gift {
     &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
       left: 3px;
       top: 2px;
       width: 33px;

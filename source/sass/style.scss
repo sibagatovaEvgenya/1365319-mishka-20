@@ -1,3 +1,24 @@
-body{
-  background: gray;
-}// Начните писать стили здесь
+@import "variables.scss";
+@import "fonts.scss";
+@import "common.scss";
+@import "blocks/advantages.scss";
+@import "blocks/advantages-list.scss";
+@import "blocks/button.scss";
+@import "blocks/catalog.scss";
+@import "blocks/content-wrapper.scss";
+@import "blocks/copyright.scss";
+@import "blocks/footer-logo.scss";
+@import "blocks/header-logo.scss";
+@import "blocks/hit.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-header.scss";
+@import "blocks/page-main.scss";
+@import "blocks/poster.scss";
+@import "blocks/poster-list.scss";
+@import "blocks/product-card.scss";
+@import "blocks/ reviews.scss";
+@import "blocks/site-list.scss";
+@import "blocks/social-links.scss";
+@import "blocks/table-product.scss";
