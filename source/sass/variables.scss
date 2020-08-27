@@ -5,12 +5,12 @@ $desktop-width: 1150px;
 
 $mobile-l-max-width: ($tablet-width - 1);
 
-$mobile: ~"(min-width: #{$mobile-width})";
-$mobile-l: ~"(min-width: #{$mobile-l-width})";
-$tablet: ~"(min-width: #{$tablet-width})";
-$desktop: ~"(min-width: #{$desktop-width})";
+$mobile: "(min-width: {$mobile-width})";
+$mobile-l: "(min-width: {$mobile-l-width})";
+$tablet: "(min-width: {$tablet-width})";
+$desktop: "(min-width: {$desktop-width})";
 
-$mobile-l-only: ~"(min-width: #{$mobile-l-width}) and (max-width: #{mobile-l-max-width})";
+$mobile-l-only: "(min-width: {$mobile-l-width}) and (max-width: {mobile-l-max-width})";
 
 $font-family-base: "Open Sans", "Arial", sans-serif;
 $font-size-base: 15px;

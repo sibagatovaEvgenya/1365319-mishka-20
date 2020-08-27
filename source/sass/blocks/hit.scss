@@ -2,12 +2,12 @@
   padding-top: 35px;
 
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
     padding-top: 40px;
     padding-bottom: 38px;
   }
 
-  @media $desktop {
+  @media (min-width: $desktop-width) {
     padding-top: 115px;
     padding-bottom: 35px;
   }
@@ -21,7 +21,7 @@
   color: $font-color-legend;
   text-transform: uppercase;
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
    margin-left: auto;
    margin-top: 5px;
    margin-bottom: 0;
@@ -30,7 +30,7 @@
    text-align: center;
  }
 
- @media $desktop {
+ @media (min-width: $desktop-width) {
    margin-left: 45px;
    margin-right: 55px;
    line-height: 17px;
@@ -44,14 +44,14 @@
   font-size: 15px;
   line-height: 24px;
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
    margin-top: 0;
    margin-bottom: 48px;
    font-size: 17px;
    line-height: 30px;
  }
 
- @media $desktop {
+ @media (min-width: $desktop-width) {
    margin-left: 45px;
    margin-right: 58px;
    font-size: 17px;
@@ -65,9 +65,9 @@
   line-height: 24px;
   font-weight: 700;
   text-align: center;
-  }
 
-  @media $tablet, $desktop {
+
+  @media (min-width: $tablet-width) {
     margin-bottom: 33px;
     font-size: 20px;
     line-height: 24px;

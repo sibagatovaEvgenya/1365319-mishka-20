@@ -20,13 +20,13 @@
   line-height: 30px;
   color: $font-color-heading;
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
     padding: 0 82px;
     font-size: 43px;
     line-height: 50px;
   }
 
-  @media $desktop {
+  @media (min-width: $desktop-width) {
     padding: 0 220px;
     font-size: 53px;
     line-height: 57px;

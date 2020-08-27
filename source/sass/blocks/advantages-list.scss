@@ -7,7 +7,7 @@
   font-weight: 700;
   line-height: 20px;
 
-  @media $tablet, $desktop{
+  @media (min-width: $tablet-width){
     padding-top: 56px;
     padding-bottom: 54px;
     font-size: 20px;

@@ -1,7 +1,7 @@
 .copyright{
   border-top: 1px solid $bg-color-separate;
 
-  @media $tablet, $desctop {
+  @media (min-width: $tablet-width) {
     border-top: 0;
   }
 }

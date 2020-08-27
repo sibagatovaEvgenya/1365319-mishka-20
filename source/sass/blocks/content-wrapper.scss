@@ -6,7 +6,7 @@
   padding-left: 30px;
   padding-right: 30px;
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
     padding-left: 50px;
     padding-right: 50px;
   }

@@ -1,11 +1,11 @@
 .catalog__card-product {
   margin: 0 auto 30px;
 
-  @media $tablet {
+  @media (min-width: $tablet-width) {
     margin-bottom: 53px;
   }
 
-  @media $desktop {
+  @media (min-width: $desktop-width) {
     margin: 0 0 57px;
   }
 }

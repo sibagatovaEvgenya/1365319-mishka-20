@@ -3,7 +3,7 @@
   padding-bottom: 23px;
   background-color: $bg-color-footer;
 
-  @media $table, $desctop{
+  @media (min-width: $tablet-width){
     padding-top: 51px;
     padding-bottom: 58px;
   }
@@ -12,7 +12,7 @@
 .page-footer__logo {
   display: none;
 
-  @media $tablet, $desctop {
+  @media (min-width: $tablet-width) {
     display: block;
     margin-right: 0;
   }
@@ -21,7 +21,7 @@
   margin-top: 22px;
   margin-bottom: 23px;
 
-  @media $table, $desctop{
+  @media (min-width: $tablet-width){
     margin:0;
   }
 }
