@@ -3,6 +3,7 @@
 }
 
 .page-main__header {
+  position: relative;
   padding-top: 75px;
   padding-bottom: 75px;
   background-color: $gray-secondary;
@@ -19,6 +20,9 @@
 
   &::after {
     content: none;
+    position: absolute;
+    left: 0;
+    right: 0;
     background-image: url("../img/bg-zigzag-fill.svg");
     background-repeat: repeat-x;
 

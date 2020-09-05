@@ -1,4 +1,5 @@
 .hit{
+  position: relative;
   padding-top: 35px;
 
 
@@ -11,7 +12,48 @@
     padding-top: 115px;
     padding-bottom: 35px;
   }
+
+  &::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 6px;
+   background-image: url("../img/bg-zigzag-line.svg");
+   background-size: 320px 6px;
+   background-position-x: 0;
+   background-repeat: repeat-x;
+
+   @media (min-width: $tablet-width) {
+     height: 17px;
+     background-size: 768px 17px;
+     background-position-x: -22px;
+   }
+
+   @media (min-width: $desktop-width) {
+     left: 50px;
+     right: 50px;
+     height: 23px;
+     background-size: 1050px 23px;
+     background-position-x: -20px;
+   }
+ }
 }
+.hit__header{
+  @media (min-width: $tablet-width){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 28px;
+    padding: 5px 0;
+  }
+
+  @media (min-width: $desktop-width){
+    padding-left: 46px;
+  }
+}
+
 .hit__marker{
   margin-top: 4px;
   margin-bottom: 4px;

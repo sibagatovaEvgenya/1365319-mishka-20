@@ -1,4 +1,22 @@
+.poster-list{
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $mobile-width) and (max-width: $mobile-l-width){
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.promo-list__item {
+  @media (min-width: $mobile-width) and (max-width: $mobile-l-width) {
+    width: 50%;
+  }
+}
+
 .poster-list__link{
+  position: relative;
+  display: block;
   padding-top: 25px;
   padding-bottom: 34px;
   padding-left:36px;
@@ -16,12 +34,27 @@
     line-height: 24px;
   }
 
+  &:hover {
+    transform: translateY(-5px);
+  }
+  &:active {
+   color: rgba(255, 255, 255, 0.3);
+ }
+
   &--interior {
     background-color: $green-primary;
 
     &:hover,
     &:active {
       background-color: $green-primary--hover;
+    }
+
+    &::after {
+      right: 36px;
+      width: 40px;
+      height: 62px;
+      background-image: url("../img/icon-interior.svg");
+      background-size: 40px 62px;
     }
   }
 
@@ -32,8 +65,18 @@
     &:active {
       background-color: $green-secondary--hover;
     }
+
+    &::after {
+     right: 27px;
+     width: 60px;
+     height: 60px;
+     background-image: url("../img/icon-toy.svg");
+     background-size: 60px 60px;
+   }
   }
+}
 
-
-
+.poster-list__text{
+  display: block;
+  max-width: 120px;
 }
